@@ -1,0 +1,38 @@
+{
+  "parser": {
+    ".tsx$": "@markuplint/jsx-parser"
+  },
+  "rules": {
+    "attr-value-quotes": false,
+    "no-refer-to-non-existent-id": true,
+    "case-sensitive-attr-name": false,
+    "deprecated-attr": true,
+    "no-boolean-attr-value": false,
+    "deprecated-element": true,
+    "class-naming": false,
+    "id-duplication": true,
+    "wai-aria": true,
+    "no-default-value": false,
+    "end-tag": false,
+    "disallowed-element": true,
+    "placeholder-label-option": true,
+    "attr-duplication": true,
+    "use-list": false,
+    "landmark-roles": false,
+    "character-reference": true,
+    "require-accessible-name": true,
+    "required-h1": true,
+    "label-has-control": false,
+    "no-use-event-handler-attr": false,
+    "case-sensitive-tag-name": false,
+    "required-element": true,
+    "ineffective-attr": false,
+    "doctype": "always",
+    "permitted-contents": true,
+    "no-empty-palpable-content": false,
+    "no-hard-code-id": false,
+    "require-datetime": true,
+    "required-attr": true,
+    "invalid-attr": false
+  }
+}
